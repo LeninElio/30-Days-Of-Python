@@ -6,8 +6,8 @@ print(random_user_id())
 # Modificar la tarea anterior. Declare una función llamada user_id_gen_by_user. No toma ningún parámetro,
 # pero toma dos entradas usando input(). Una de las entradas es la cantidad de caracteres y la segunda entrada es la
 # cantidad de ID que se supone que se generarán.
-# for i in user_id_gen_by_user():
-#     print(i)
+for i in user_id_gen_by_user():
+    print(i)
 
 # Escribe una función llamada rgb_color_gen. Generará colores rgb (3 valores que van de 0 a 255 cada uno).
 print(rgb_color_gen())
